@@ -6,11 +6,57 @@
         <item>The Beatles</item>
         <item>Nirvana</item>
         <item>U2</item>
+        <item>David Bowie</item>
+        <item>Styx</item>
+        <item>Alphaville</item>
+        <item>Steely Dan</item>
+        <item>Adult.</item>
+        <item>Aphex Twin</item>
+        <item>Queen</item>
+        <item>Darkness</item>
+        <item>Radiohead</item>
+        <item>Bananarama</item>
+        <item>The Beatles</item>
+        <item>Nirvana</item>
+        <item>U2</item>
+        <item>David Bowie</item>
+        <item>Styx</item>
+        <item>Alphaville</item>
+        <item>Steely Dan</item>
+        <item>Adult.</item>
+        <item>Aphex Twin</item>
+        <item>Queen</item>
+        <item>Darkness</item>
+        <item>Radiohead</item>
+        <item>Bananarama</item>
     </string-array>
 
     <string-array name="descriptions">
         <item>An English rock band that formed in Liverpool in 1960.</item>
         <item>An American rock band that formed in Washington in 1987.</item>
         <item>An Irish rock band from Dublin that formed in 1976.</item>
+        <item>#1 Cool guy.</item>
+        <item>Mr. Roboto singers.</item>
+        <item>FOREVER YOUNG!</item>
+        <item>Kinda a gross band.</item>
+        <item>Pretty cool electronic stuff.</item>
+        <item>Classic electronic stuff.</item>
+        <item>You know. Bohemians.</item>
+        <item>Early 2000s dumb band.</item>
+        <item>Depressing.</item>
+        <item>She\'s got it.</item>
+        <item>An English rock band that formed in Liverpool in 1960.</item>
+        <item>An American rock band that formed in Washington in 1987.</item>
+        <item>An Irish rock band from Dublin that formed in 1976.</item>
+        <item>#1 Cool guy.</item>
+        <item>Mr. Roboto singers.</item>
+        <item>FOREVER YOUNG!</item>
+        <item>Kinda a gross band.</item>
+        <item>Pretty cool electronic stuff.</item>
+        <item>Classic electronic stuff.</item>
+        <item>You know. Bohemians.</item>
+        <item>Early 2000s dumb band.</item>
+        <item>Depressing.</item>
+        <item>She\'s got it.</item>
     </string-array>
 </resources>

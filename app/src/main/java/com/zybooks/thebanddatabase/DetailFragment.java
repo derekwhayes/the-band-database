@@ -9,8 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class DetailFragment extends Fragment {
 
     public static final String ARG_BAND_ID = "band_id";
@@ -41,7 +39,7 @@ public class DetailFragment extends Fragment {
             nameTextView.setText(mBand.getName());
 
             TextView descriptionTextView = rootView.findViewById(R.id.band_description);
-            descriptionTextView.setText(mBand.getmDescription());
+            descriptionTextView.setText(mBand.getDescription());
         }
 
         return rootView;

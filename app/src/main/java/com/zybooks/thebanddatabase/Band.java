@@ -29,7 +29,7 @@ public class Band {
         this.mName = name;
     }
 
-    public String getmDescription() {
+    public String getDescription() {
         return mDescription;
     }
 
