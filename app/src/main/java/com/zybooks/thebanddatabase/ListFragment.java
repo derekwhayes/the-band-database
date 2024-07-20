@@ -32,9 +32,14 @@ public class ListFragment extends Fragment {
             button.setLayoutParams(layoutParams);
 
             button.setText(band.getName());
+            button.setTag(band.getId());
 
             button.setOnClickListener(buttonView -> {
-                Navigation.findNavController(buttonView).navigate(R.id.show_item_detail);
+                int selectedBandId = (int) buttonView.getTag();
+                Bundle args = new Bundle();
+                args.putInt(DetailFragment.ARG_BAND_ID, selectedBandId);
+
+                Navigation.findNavController(buttonView).navigate(R.id.show_item_detail, args);
             });
 
             layout.addView(button);

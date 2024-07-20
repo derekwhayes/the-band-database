@@ -13,6 +13,7 @@ import org.w3c.dom.Text;
 
 public class DetailFragment extends Fragment {
 
+    public static final String ARG_BAND_ID = "band_id";
     private Band mBand;
 
     public DetailFragment() {}
@@ -22,6 +23,11 @@ public class DetailFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
         int bandId = 1;
+
+        Bundle args = getArguments();
+        if (args != null) {
+            bandId = args.getInt(ARG_BAND_ID);
+        }
 
         mBand = BandRepository.getInstance(requireContext()).getBand(bandId);
     }
